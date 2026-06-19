@@ -1,0 +1,7 @@
+theme = catppuccin-mocha
+
+# Options: block, bar, underline
+cursor-style = block
+
+# Set to false for a solid, classic Vim feel
+cursor-style-blink = false
