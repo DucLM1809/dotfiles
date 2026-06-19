@@ -114,7 +114,6 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-alias ls='colorls'
 alias python=/opt/homebrew/bin/python3.11
 alias pip=/opt/homebrew/bin/pip3.11
 
@@ -131,9 +130,6 @@ export NVM_DIR="$HOME/.nvm"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 alias lzd='lazydocker'
-
-. "$HOME/.local/bin/env"
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 # pnpm
 export PNPM_HOME="/Users/minhducle/Library/pnpm"
